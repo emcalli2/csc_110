@@ -1,9 +1,10 @@
 def sum_all(numbers):
     index = 0
-    sum = 0
+    total = 0
     while index < len(numbers):
-        sum = sum + numbers[index]
+        total = total + numbers[index]
         index += 1
+    return total
 def main():
   value = sum_all([])
   assert value == 0, f"expected return value was 0, but function returned {value}" 
