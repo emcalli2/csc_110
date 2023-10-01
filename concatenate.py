@@ -6,4 +6,4 @@ def concatenate(words):
         index += 1
     return string
 print(concatenate(["Hello"]))
-print(concatenate("HI"))
+
