@@ -1,3 +1,4 @@
+print("ADD COMMENTS, DO NOT SUBMIT")
 def mean(numbers):
     index = 0
     sum = 0
@@ -29,10 +30,10 @@ def sd(numbers):
 def list_range(numbers):
     index = 0 
     highest = 0
-    length = len(numbers) -1
-    lowest = numbers[length]
     if len(numbers) == 0:
         return 0
+    length = len(numbers) -1
+    lowest = numbers[length]
     while index < len(numbers):
         if numbers[index] > highest:
             highest = numbers[index]
