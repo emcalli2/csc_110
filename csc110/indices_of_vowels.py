@@ -1,6 +1,6 @@
 def indices_of_vowel(string):
     result = []
-    for index in range(len(string)):
+    for index in range(1, len(string)):
         if string[index] in "aeiouAEIOU":
             result.append(index)
         return result
