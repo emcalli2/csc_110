@@ -1,6 +1,6 @@
 #Rachel
-def read_first_line(info):
-    info = open('info.txt', 'r')
+def read_first_line(filename):
+    info = open(filename, 'r')
     line = info.readline()
     info.close()
     return line
